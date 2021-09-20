@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom,#967E74, #bdafa9);
+
+}
+
+.navbar{
+    width: 50%;
+    height: 15%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+    width: 20%;
+}
+
+.menu li :hover{
+    background-color: darkblue;
+}
+
+.menu li a{
+    color: darkgrey;
+    padding-bottom: 5px;
+}
+
+.menu li a:hover{
+    color: rgb(209, 119, 119);
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    transform: skew(20deg, 0deg);
+}
+
+.title{
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom violet blue);
+}
+
+.title h1{
+    font-size: 40px;
+}
+
+.title h1 span{
+    font-weight: 100;
+}
+
+.title h2{
+    font-size: 20px;
+    font-weight: 10;
+    text-align: center;
+}
+
+
+main{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    width: 80%;
+    display: flex;
+}
+
+.imgBanner{
+    width: 70%;
+
+}
+
+.imgBanner img{
+    width: 100%;
+}
+
+.infoBanner{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.infoSub{
+    font-size: 25px;
+ 
+}
+
+.infoSub h2{
+    font-size: 2em;
+    color: white;
+    line-height: 0.9em;
+    padding-left: 10%;
+}
+
+.listaBanner{
+    position: relative;
+    left: 10%;
+    bottom: 10%;
+    max-width: 70%;
+}
+
+.listaBanner ul{
+    list-style-type: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.listaBanner ul{
+    height: 100px;
+    transition: height 5s;
+}
+
+.listaBanner ul :hover{
+    height: 30px;
+    background-color: yellow;
+    color: black;
+}
+
+.imgAnimacion{
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes animacion{
+    0%{
+        font-size: 5px; 
+    }
+    50%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
